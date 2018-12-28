@@ -24,6 +24,7 @@ import android.content.SharedPreferences;
 import android.util.Log;
 import androidx.preference.PreferenceManager;
 
+import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.display.KcalUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
@@ -42,6 +43,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (KcalUtils.isKcalSupported())
             KcalUtils.writeCurrentSettings(sharedPrefs);
 
+        DiracUtils.initialize(context);
         DozeUtils.checkDozeService(context);
         ThermalUtils.startService(context);
     }
