@@ -56,6 +56,8 @@ public class KcalSettingsFragment extends PreferenceFragment implements
         // Check if the node exists and enable / disable the preference depending on the case
         if (FileUtils.fileExists(KcalUtils.KCAL_ENABLE_NODE)) {
             configurePreferences();
+            KcalUtils.writeCurrentSettings(mSharedPrefs);
+            configurePreferences();
         } else {
             mKcalSwitchPreference.setEnabled(false);
         }
