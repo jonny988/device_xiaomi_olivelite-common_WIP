@@ -74,6 +74,7 @@ vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 etc/permissions/audiosphere.xml
 framework/audiosphere.jar
 vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libmisoundfx.so
 vendor/lib64/soundfx/libasphere.so
 
 # ANT+ (vendor)
