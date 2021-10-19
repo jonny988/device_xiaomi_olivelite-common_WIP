@@ -65,6 +65,6 @@ public class BootCompletedReceiver extends BroadcastReceiver implements Controll
 
         DozeUtils.checkDozeService(context);
         ThermalUtils.startService(context);
-        new DiracUtils(context).onBootCompleted();
+        new DiracUtils(context);
     }
 }
