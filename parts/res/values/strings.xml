@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-    
+<resources>    
     <!-- Kcal settings -->
     <string name="kcal_settings_title">Display colors</string>
     <string name="kcal_settings_summary">Adjust the color of your display</string>
@@ -41,5 +41,4 @@
     <string name="thermal_dialer">Dialer</string>
     <string name="thermal_gaming">Gaming</string>
     <string name="thermal_youtube">Youtube</string>
-
 </resources>
