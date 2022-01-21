@@ -25,6 +25,7 @@ import android.util.Log;
 import androidx.preference.PreferenceManager;
 
 import org.lineageos.settings.doze.DozeUtils;
+import org.lineageos.settings.display.KcalUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
