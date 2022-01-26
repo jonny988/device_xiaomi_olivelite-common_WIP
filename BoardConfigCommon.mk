@@ -24,9 +24,6 @@ BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 
-# MiuiCamera
--include vendor/xiaomi/miuicamera/BoardConfigAnx.mk
-
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 BOARD_KERNEL_BASE := 0x80000000
