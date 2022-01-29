@@ -133,7 +133,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 HWUI_COMPILE_FOR_PERF := true
 
 # MiuiCamera
-$(call inherit-product-if-exists,  vendor/xiaomi/miuicamera/BoardConfigAnx.mk)
+-include-if-exist vendor/xiaomi/miuicamera/BoardConfigAnx.mk
 
 # Partitions
 TARGET_COPY_OUT_VENDOR := vendor
