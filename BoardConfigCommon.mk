@@ -132,8 +132,8 @@ TARGET_HW_DISK_ENCRYPTION := true
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
-# MiuiCamera
--include-if-exist vendor/xiaomi/miuicamera/BoardConfigAnx.mk
+# AnxCamera
+-include vendor/xiaomi/miuicamera/BoardConfigAnx.mk
 
 # Partitions
 TARGET_COPY_OUT_VENDOR := vendor
